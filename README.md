@@ -17,13 +17,13 @@
   5-1 Canvas
 
 ##Schedules :
->One week will be divided into weekdays, weekends.
->then there will be 2 iterations a week.
->5th, Aug - WEBGl introduction
->6th ~ 7th Aug - make browsers detect if they can run html5.
->8th ~ 12th Aug - put something(e.g. dots, ball) in canvas, make application can track user's mouse moving.
->13th ~ 14th Aug - make simple terrain in Canvas
->15th ~ 21st Aug - make long way, cliff (if possible, animals from library)
->22nd ~ 26th Aug - KeyDown should work for moving in 2-dimensions / Mouse moving should work for viewing transformation
->27th ~ 28th Aug - place music in application
->29th ~ 2nd Sep - make custom move for web music video.
+- One week will be divided into weekdays, weekends.
+- then there will be 2 iterations a week.
+- 5th, Aug - WEBGl introduction
+- 6th ~ 7th Aug - make browsers detect if they can run html5.
+- 8th ~ 12th Aug - put something(e.g. dots, ball) in canvas, make application can track user's mouse moving.
+- 13th ~ 14th Aug - make simple terrain in Canvas
+- 15th ~ 21st Aug - make long way, cliff (if possible, animals from library)
+- 22nd ~ 26th Aug - KeyDown should work for moving in 2-dimensions / Mouse moving should work for viewing transformation
+- 27th ~ 28th Aug - place music in application
+- 29th ~ 2nd Sep - make custom move for web music video.
