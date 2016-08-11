@@ -1,0 +1,29 @@
+What is HTML5 canvas? (From W3 school txt, I rephrased)
+The HTML canvas elements are used to draw graphics, on the fly, via scripting .
+The canvas element is just CONTAINER for graphics. (as terminology says)
+it has several methods for drawing paths, boxes, circle, text, and adding images.
+
+0. Browser Support (only for basic, for webgl, it would get higher.) 
+  - Chrome 4.0
+  - IE 9.0
+  - safari 3.1
+  - firefox 2.0
+  - opera 9.0
+
+1. How to draw line
+  <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(100, 150);
+      context.lineTo(450, 50);
+      context.stroke();
+    </script>
+ (1) Syntax = canvas.getContext(contextType, ContextAttributes).
+      getContext for HTML5canvas object - It returns a drawing context on canvas.
+   - contextType [2d, webgl(OpenGL ES 2.0), webgl2(OpenGL ES 3.0), bitmaprenderer]
+   - contextAttributes 
+     - 2d [alpha = indicated as boolean if the canvas contains a alpha channel, if set to false, can be known the backdrop is always opaque, 
+       which can speed up drawing of transparent content
+
