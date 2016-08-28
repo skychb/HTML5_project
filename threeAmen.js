@@ -59,7 +59,7 @@ function init() {
 	container.appendChild( renderer.domElement );
 
 	window.setInterval(function(){
-		// console.log(camera.position.x);
+		console.log();
 
 	}, 5000);
 
